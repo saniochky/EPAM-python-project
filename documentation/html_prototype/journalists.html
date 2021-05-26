@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Journalists</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container-fluid px-0">
+    <div class="row mx-0">
+        <div class="col-12 px-0"></div>
+    </div>
+    <div class="row mx-0">
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item active">
+                <a class="nav-link" href="articles.html">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="orders.html">Orders</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="journalists.html">Journalists</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="add-journalist.html">Add</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="row mx-0">
+        <div class="col-6 px-0">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    0-5 articles
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    6-10 articles
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                    10+ articles
+                </label>
+            </div>
+        </div>
+        <div class="col-6 px-0">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Verified
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="row mx-0">
+        <div class="col-2 p-3 border border-dark">First name</div>
+        <div class="col-2 p-3 border border-dark">Last name</div>
+        <div class="col-3 p-3 border border-dark">Start date</div>
+        <div class="col-3 p-3 border border-dark">Number of articles</div>
+		<div class="col-1 p-3 border border-dark">Verified</div>
+        <div class="col-1 p-3 border border-dark"></div>
+    </div>
+    <div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+    <div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+	<div class="row mx-0">
+        <div class="col-2 p-3 border border-dark article-name">Jack</div>
+        <div class="col-2 p-3 border border-dark article-lastname">John</div>
+        <div class="col-3 p-3 border border-dark article-date">01.01.2021</div>
+        <div class="col-3 p-3 border border-dark article-num-articles">3</div>
+		<div class="col-1 p-3 border border-dark article-verified">True</div>
+        <div class="col-1 p-3 border border-dark article-trash">
+            <img width="24" src="img/trash.png" alt="Trash">
+        </div>
+    </div>
+</div>
+</body>
+</html>
