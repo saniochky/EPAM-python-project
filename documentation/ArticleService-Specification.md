@@ -24,7 +24,7 @@ The mode is designed to view the list of articles.
 - User selects item “Articles”
 - Application displays list of articles
 
-*---PIC---*
+![](img/articles-list.png)
 Pic. 1.1 View the articles list.
 
 The list displays the following columns:
