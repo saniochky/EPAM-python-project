@@ -51,7 +51,7 @@ The list displays the following columns:
 - Data is not saved in database, then list of articles records is displaying to user
 - If the user selects the menu item "Articles”, ”Orders” or "Journalists", the data will not be saved to the database and the corresponding form with updated data will be opened.
 
-*---PIC---*
+![](img/add-article.png)
 Pic. 1.2 Add article.
 
 When adding an article, the following details are entered:
@@ -69,8 +69,8 @@ When adding an article, the following details are entered:
 - Record is deleted from database
 - If order record is successfully deleted, then list of articles without deleted record is displaying and status of order corresponding to an article is changed to "In process".
 
-*---PIC---*
-Pic. 2.3 Delete article dialog.
+![](img/delete-article.png)
+Pic. 1.3 Delete article dialog.
 
 ***Cancel operation scenario:***
 - User is in display mode of articles list and presses “Delete” button
@@ -88,7 +88,7 @@ The mode is designed to view the list of orders.
 - User selects item “Orders”
 - Application displays list of Orders
 
-*---PIC---*
+![](img/orders-list.png)
 Pic. 2.1 View the orders list.
 
 The list displays the following columns:
@@ -115,7 +115,7 @@ The list displays the following columns:
 - Data is not saved in database, then list of orders records is displaying to user
 - If the user selects the menu item "Articles”, ”Orders” or "Journalists", the data will not be saved to the database and the corresponding form with updated data will be opened.
 
-*---PIC---*
+![](img/add-order.png)
 Pic. 2.2 Add order.
 
 When adding an order, the following details are entered:
@@ -133,7 +133,7 @@ When adding an order, the following details are entered:
 - Record is deleted from database
 - If order record is successfully deleted, then list of orders without deleted record is displaying.
 
-*---PIC---*
+![](img/delete-order.png)
 Pic. 2.3 Delete order dialog.
 
 ***Cancel operation scenario:***
@@ -152,7 +152,7 @@ The mode is designed to view the list of journalists.
 - User selects item “Journalists”
 - Application displays list of journalists
 
-*---PIC---*
+![](img/journalists-list.png)
 Pic. 3.1 View the journalists list.
 
 The list displays the following columns:
@@ -179,7 +179,7 @@ The list displays the following columns:
 - Data is not saved in database, then list of journalists records is displaying to user
 - If the user selects the menu item "Articles”, ”Orders” or "Journalists", the data will not be saved to the database and the corresponding form with updated data will be opened.
 
-*---PIC---*
+![](img/add-journalist.png)
 Pic. 3.2 Add journalist.
 
 When adding an order, the following details are entered:
@@ -196,7 +196,7 @@ When adding an order, the following details are entered:
 - Record is deleted from database
 - If order record is successfully deleted, then list of orders without deleted record is displaying.
 
-*---PIC---*
+![](img/delete-journalist.png)
 Pic. 3.3 Delete journalist dialog.
 
 ***Cancel operation scenario:***
@@ -211,12 +211,12 @@ Pic. 3.3 Delete journalist dialog.
 - From the offered manu user can choose "0-5 articles", "6-10 articles" or "10+ articles"
 - The appropriate journalists will be displayed in the journalists list
 
-*---PIC---*
+![](img/filter-journalists-by-number.png)
 Pic. 3.4 Filter journalists by number of articles.
 
 ***Filtering verified journalists:***
 - From the offered manu user can put a checkbox if he wants to see only verified journalists
 - Only verified journalists will be displayed in the journalists list
 
-*---PIC---*
+![](img/filter-verified-journalists.png)
 Pic. 3.4 Filter verified journalists.
