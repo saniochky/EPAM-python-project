@@ -211,12 +211,12 @@ Pic. 3.3 Delete journalist dialog.
 - From the offered manu user can choose "0-5 articles", "6-10 articles" or "10+ articles"
 - The appropriate journalists will be displayed in the journalists list
 
-![](img/filter-journalists-by-number.png)
+![](img/filter-journalist-by-number.png)
 Pic. 3.4 Filter journalists by number of articles.
 
 ***Filtering verified journalists:***
 - From the offered manu user can put a checkbox if he wants to see only verified journalists
 - Only verified journalists will be displayed in the journalists list
 
-![](img/filter-verified-journalists.png)
+![](img/filter-verified-journalist.png)
 Pic. 3.4 Filter verified journalists.
